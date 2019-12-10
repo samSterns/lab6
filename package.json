@@ -10,7 +10,8 @@
     "test": "jest --verbose",
     "test:watch": "npm run test -- --watchAll --coverage",
     "start:watch": "nodemon",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint **/*.js"
   },
   "jest": {
     "testEnvironment": "node"
