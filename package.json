@@ -12,6 +12,9 @@
     "start:watch": "nodemon",
     "start": "node server.js"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samSterns/lab6.git"
